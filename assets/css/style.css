@@ -10,32 +10,35 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 20px 35px;
     background-color: #2a607c;
     color: #ffffff;
-}
-
-.header nav {
-    display: inline-block;
 }
 
 header h1 {
     display: inline-block;
     font-size: 48px;
+    margin: 0;
+    display: inline;
 }
 
 header h1 .seo {
     color: #d9dcd6;
 }
 
-header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
+header a {
     color: #ffffff;
     text-decoration: none;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    display: inline;
 }
 
 p {
@@ -181,12 +184,13 @@ p {
 }
 
 .footer {
-    padding: 30px;
+    padding: 40px 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
 .footer h2 {
+    margin: 0;
     font-size: 20px;
+    display: inline;
 }
