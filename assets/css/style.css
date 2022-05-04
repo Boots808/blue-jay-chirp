@@ -1,11 +1,11 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body {
-    color: #d9dcd6;
+    background-color: #d9dcd6;
 }
 
 .header {
@@ -13,6 +13,10 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+}
+
+.header nav {
+    display: inline-block;
 }
 
 .header h1 {
