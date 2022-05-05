@@ -156,6 +156,12 @@ p {
     color: #ffffff;
 }
 
+.content {
+    max-height: 200px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -166,21 +172,6 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
