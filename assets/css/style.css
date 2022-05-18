@@ -25,7 +25,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .stankey {
+header h1 .seo {
     color: #d9dcd6;
 }
 
@@ -62,7 +62,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/pexels");
+    background-image: url("/assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
